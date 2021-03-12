@@ -44,6 +44,7 @@ jobs:
         git config --global user.name AutoWakeUp
         git add .
         git commit -m "Successfully Wake" -a
+        git pull 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
